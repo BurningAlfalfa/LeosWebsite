@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta >
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.title,.bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.title {
+  background-image: url("[000657].jpg");
+  min-height: 100%;
+}
+
+.endtitle {
+  background-image: url("img_parallax2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img_parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption2 {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption2 span.border {
+  background-color: #696969;
+  color: #fff;
+  padding :18px;
+  /*padding-left:58px;
+  padding-right:57px;
+  */
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 45px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/*start */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+  text-decoration: none;
+}
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 0 0 4rem;
+	font-size: 2.1rem;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+	color: #595959;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+	color: grey;
+	margin: 0;
+}
+
+/*section {
+	height: 100vh;
+	width: 100%;
+	background-color: #80ce96;
+	padding: 2rem 0 0;
+}
+*/
+
+
+.card {
+	display: inline-block;
+	width: 18rem;
+	height: 20rem;
+	margin-left: 10rem;
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	transition: all 0.3s;
+	
+	&:hover {
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,.14),0 7px 5px -2px rgba(0,0,0,.2),0 5px 9px 0 rgba(0,0,0,.12);
+	top: -4px;
+	transform: translateY(-4px);
+	}
+
+	&:active {
+		box-shadow: 0 0 0 0 rgba(0,0,0,.14),0 0 0 0  rgba(0,0,0,.2),0 0 0 0  rgba(0,0,0,.12);
+		transform: translateY(4px);
+	}
+	
+	.image {
+    		background-color: #FF4500;
+
+		height: 11rem;
+		width: 100%;
+		padding: 2rem;
+		margin: 0;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	
+	.text {
+		padding: 0.5rem;
+	}
+}
+/* end*/
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="title">
+  <div class="caption">
+  <span class="border">Leonar Gharib</span>
+  </div>
+</div class="title">
+  <div class="caption2">
+    <span class="border">Full-Stack Developer</span>
+  </div>
+
+<div>
+
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:30px 50px;text-align: justify;">
+  <h3 style="text-align:center;">Portfolio</h3>
+  <p>Hello, I'm Leo, a passionate developer with some cool projects under my belt. I'm experienced in a lot of languages and technologies, almost all self-taught through the mighty internet. I'm currently focused on the Node.js ecosystem, blockchain ethereum development through web3, and React. I work with Adventure Pizza Inc. on exciting tech such as VR through a-frame, and am always open to new opportunities. Talk with me.
+`</p>
+</div>
+
+<section>
+
+	<a href="http://www.saturnchat.com/" class="card">
+		<figure class="image">
+					
+					</figure>
+		<article class="text">
+			<h2>Saturn Chat</h2>
+			<p>A VR-based chatroom featuring 3D gifs, effects, animations, emojis, image uploading, dynamic subdomains, and more.</p>
+		</article>
+	</a>
+
+
+	<a href="http://webhots.herokuapp.com/stats/" class="card">
+		<figure class="image">
+					
+					</figure>
+		<article class="text">
+			<h2>Web Hots</h2>
+			<p>An analytical site displaying win-rate data for the eSport Heroes of the Storm.</p>
+		</article>
+	</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #282E35;">Saturn Chat</span>
+  </div>
+</div> 
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Saturn Chat is a VR chat room.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div>
+</div> -->
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  
+  </div>
+</div>
+
+<div class="title">
+  <div class="caption">
+  <span class="border">Contacct me <br> leonargharib@gmail.com<class="com"></leonargharib@gmail> </span>
+  </div>
+</div>
+<!--
+</div class="title">
+  <div class="caption">
+    <span class="border">leonargharib@gmail.com</span>
+  </div>
+-->
+<div>
+</body>
+</html>
